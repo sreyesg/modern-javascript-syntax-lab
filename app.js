@@ -85,3 +85,20 @@ const propertyName = 'username'
 const userProfile = {
     [propertyName]: 'Santie25'
 }
+
+// ------- Exercise 8: Default parameters
+
+// Create a function that takes two parameters, `noun` and `adjective`, both with the following respective default values:
+
+// 1. `cat`
+
+// 2. `white`
+
+// The function should log a sentence 'The cat is white.' by default. The function should substitute the appropriate parameters when supplied arguments.
+
+// Your code here
+function sentence (noun = 'cat', adjective='white'){
+    return `the ${noun} is ${adjective}`
+}
+
+console.log(sentence(perro))
