@@ -166,6 +166,5 @@ const adventurer = {
   };
   
   let cat = adventurer.cat?.name; // Your code here
-  
   console.log(cat);
   
