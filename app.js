@@ -68,8 +68,8 @@ const car2 = {
 
 const myCar = {...car2}
 myCar.model = 'q7'
-console.log('original', car2)
-console.log('modified', myCar)
+// console.log('original', car2)
+// console.log('modified', myCar)
 
 //  Exercise 6: Dynamic keys in objects
 
@@ -101,4 +101,22 @@ function sentence (noun = 'cat', adjective='white'){
     return `the ${noun} is ${adjective}`
 }
 
-console.log(sentence('dog','brown'))
+// console.log(sentence('dog','brown'))
+
+// ------- Exercise 9: Ternary operator
+
+// Convert the following `if...else` statement in to a ternary:
+
+let pizza = 'tasty';
+
+if (pizza === 'tasty') {
+  console.log('yum');
+} else {
+  console.log('yuck');
+}
+
+// Your code here
+ let feedback = pizza === 'tasty' ? 'yum':'yuck'
+ 
+//  console.log(feedback)
+
