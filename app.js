@@ -101,4 +101,4 @@ function sentence (noun = 'cat', adjective='white'){
     return `the ${noun} is ${adjective}`
 }
 
-console.log(sentence(perro))
+console.log(sentence('dog','brown'))
